@@ -4,8 +4,11 @@
 
 The repo attempts to test the specific function of connecting a microphone with the Speech-to-Text service.
 
+To use: clone locally, then add your Speech-to-Text credentials to your local `.env` file.
 ```
 git clone git@github.com:rhagarty/speech-to-text-demo.git
+cd speech-to-text-demo
+cp env.sample .env
 ```
 
 ### `fullStream.js`

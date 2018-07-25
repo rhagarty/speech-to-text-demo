@@ -12,10 +12,11 @@
     "url": "git@github.com:rhagarty/speech-to-textdemo.git"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "mic": "^2.1.1",
     "node-ffprobe": "^1.2.2",
     "play-sound": "^1.1.1",
     "prompt": "^1.0.0",
-    "watson-developer-cloud": "^3.5.0"
+    "watson-developer-cloud": "^2.7.0"
   }
 }

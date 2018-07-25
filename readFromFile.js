@@ -1,9 +1,11 @@
+require('dotenv').config({
+  silent: true
+});
+
 const watson = require('watson-developer-cloud');
 const fs = require('fs');
 
 const speechToText = new watson.SpeechToTextV1({
-  username: 'e7434103-17e8-4623-94ac-a88c9a38dc0a',
-  password: 'i68lQJUtt6ES'
 });
 
 var params = {
