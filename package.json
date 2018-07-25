@@ -1,0 +1,21 @@
+{
+  "name": "speech-to-text-demo",
+  "version": "1.0.0",
+  "description": "code to test STT apis.",
+  "main": "fullStream.js",
+  "scripts": {
+    "start": "node fullStream.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rhagarty/speech-to-textdemo.git"
+  },
+  "dependencies": {
+    "mic": "^2.1.1",
+    "node-ffprobe": "^1.2.2",
+    "play-sound": "^1.1.1",
+    "prompt": "^1.0.0",
+    "watson-developer-cloud": "^3.5.0"
+  }
+}
