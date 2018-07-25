@@ -1,3 +1,7 @@
+require('dotenv').config({
+  silent: true
+});
+
 const watson = require('watson-developer-cloud');
 const mic = require('mic');
 
@@ -16,8 +20,6 @@ micInstance.start();
 console.log('Watson is listening, you may speak now.');
 
 const speechToText = watson.speech_to_text({
-  username: 'e7434103-17e8-4623-94ac-a88c9a38dc0a',
-  password: 'i68lQJUtt6ES',
   version: 'v1'
 });
 
