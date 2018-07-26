@@ -26,7 +26,7 @@ const speechToText = watson.speech_to_text({
 // pipe the mic stream to Speech to Text service
 const textStream = micInputStream.pipe(
   speechToText.createRecognizeStream({
-    content_type: 'audio/l16; rate=44100; channels=2'
+    'content_type': 'audio/l16; rate=44100; channels=2'
   })).setEncoding('utf8');
 
 textStream.on('data', (user_speech_text) => {
